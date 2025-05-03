@@ -40,13 +40,17 @@ html {
   flex-direction: row;
   justify-content: space-between;
   margin: 0 auto;
+
+  background: #F1F1F1;
+  padding: 0 16px;
+  border-radius: 25px;
 }
 
 .MenuButton {
   font-family: "Geologica", sans-serif;
   font-size: 22px;
   font-weight: 400;
-  color: #435CFF;
+  color: #203bff;
   border: none;
   cursor: pointer;
 }
@@ -89,7 +93,7 @@ html {
   font-family: "Geologica", sans-serif;
   font-size: 50px;
   font-weight: 400;
-  color: #707070;
+  color: #435CFF;
   margin-left: 0;
-  margin-top: 121px;
+  margin-top: 70px;
 }
