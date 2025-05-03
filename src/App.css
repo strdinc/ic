@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+html {
+  background-color: #F1F1F1;
+}
+
+.geologica-all {
+              font-family: "Geologica", sans-serif;
+              font-optical-sizing: auto;
+              font-style: normal;
+              font-variation-settings:
+                      "slnt" 0,
+                      "CRSV" 0,
+                      "SHRP" 0;
+}
+
+.Container {
+  width: 1920px;
+  padding: 50px;
+  margin: auto auto;
+}
+
+.Header {
+  position: fixed;
+  height: auto;
+  width: 1820px;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+
+.IdigitLogo {
+  height: 46px;
+  width: auto;
+}
+
+.MenuButtons {
+  width: 916px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.MenuButton {
+  font-family: "Geologica", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #435CFF;
+  border: none;
+  cursor: pointer;
+}
+
+.TitleTexts {
+  margin-top: 119px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.TitleText {
+  font-family: "Geologica", sans-serif;
+  font-size: 128px;
+  font-weight: 500;
+  color: #8090FF;
+}
+
+.TitleTextFirst {
+  margin-left: 0;
+}
+
+.TitleTextSecond {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.TitleTextThird {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.DarkerWordTitle {
+  color: #435CFF;
+  cursor: default;
+}
+
+.SubTitle {
+  font-family: "Geologica", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  color: #707070;
+  margin-left: 0;
+  margin-top: 121px;
+}
